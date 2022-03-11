@@ -1,12 +1,12 @@
 {
   "name": "vueplug-aplayer",
-  "version": "1.6.0",
+  "version": "0.0.2",
   "description": "Easy-to-use music player for Vue 2.x",
-  "main": "dist/vue-aplayer.min.js",
+  "main": "lib/vue-aplayer.min.js",
   "files": [
     "src",
     "!src/demo/*",
-    "dist/*.js"
+    "lib/*.js"
   ],
   "scripts": {
     "dev": "vite",
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SevenOutman/vue-aplayer.git"
+    "url": "git+https://github.com/yzqdev/vueplug-aplayer.git"
   },
   "keywords": [
     "vue",
@@ -29,15 +29,11 @@
     "vue-compoents"
   ],
   "author": {
-    "name": "Doma",
-    "email": "leishenghao@126.com",
-    "url": "https://github.com/SevenOutman"
+    "name": "yzqdev",
+    "email": "yzqdev@outlook.com",
+    "url": "https://github.com/yzqdev"
   },
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/SevenOutman/vue-aplayer/issues"
-  },
-  "homepage": "https://github.com/SevenOutman/vue-aplayer#readme",
   "devDependencies": {
     "fast-glob": "^3.2.11",
     "vite-plugin-svg-icons": "^2.0.1"
