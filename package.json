@@ -1,0 +1,56 @@
+{
+  "name": "vueplug-aplayer",
+  "version": "1.6.0",
+  "description": "Easy-to-use music player for Vue 2.x",
+  "main": "dist/vue-aplayer.min.js",
+  "files": [
+    "src",
+    "!src/demo/*",
+    "dist/*.js"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "dist": " vite build",
+    "preview": "vite preview",
+    "lint": "prettier --write **/*/*.{vue,js,json,html,jsx,ts,tsx}"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SevenOutman/vue-aplayer.git"
+  },
+  "keywords": [
+    "vue",
+    "aplayer",
+    "vue-aplayer",
+    "music-player",
+    "html5",
+    "component",
+    "vue-compoents"
+  ],
+  "author": {
+    "name": "Doma",
+    "email": "leishenghao@126.com",
+    "url": "https://github.com/SevenOutman"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SevenOutman/vue-aplayer/issues"
+  },
+  "homepage": "https://github.com/SevenOutman/vue-aplayer#readme",
+  "devDependencies": {
+    "fast-glob": "^3.2.11",
+    "vite-plugin-svg-icons": "^2.0.1"
+  },
+  "dependencies": {
+    "@types/node": "^17.0.21",
+    "@vitejs/plugin-vue": "^2.2.4",
+    "hls.js": "^1.1.5",
+    "sass": "^1.49.9",
+    "typescript": "^4.6.2",
+    "vite": "2",
+    "vite-svg-loader": "^3.1.2",
+    "vue": "^3.2.31",
+    "vue-tsc": "^0.32.1"
+  }
+}
